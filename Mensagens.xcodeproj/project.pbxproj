@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A3E38A8296E363D0026DDAE /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3E38A7296E363D0026DDAE /* BaseViewController.swift */; };
+		6A3E38AA296E3F670026DDAE /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3E38A9296E3F670026DDAE /* ColorPickerViewController.swift */; };
 		6A8A08B8296CF0EF00600A10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8A08B7296CF0EF00600A10 /* AppDelegate.swift */; };
 		6A8A08BA296CF0EF00600A10 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8A08B9296CF0EF00600A10 /* SceneDelegate.swift */; };
-		6A8A08BC296CF0EF00600A10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8A08BB296CF0EF00600A10 /* ViewController.swift */; };
+		6A8A08BC296CF0EF00600A10 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8A08BB296CF0EF00600A10 /* MessageViewController.swift */; };
 		6A8A08BF296CF0EF00600A10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A8A08BD296CF0EF00600A10 /* Main.storyboard */; };
 		6A8A08C1296CF0F100600A10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A8A08C0296CF0F100600A10 /* Assets.xcassets */; };
 		6A8A08C4296CF0F100600A10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A8A08C2296CF0F100600A10 /* LaunchScreen.storyboard */; };
+		6A8A08D0296CF44600600A10 /* MessageColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8A08CF296CF44600600A10 /* MessageColorViewController.swift */; };
+		6A8A08D2296CF45600600A10 /* ScreenColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8A08D1296CF45600600A10 /* ScreenColorViewController.swift */; };
+		6A8A08D4296CF46200600A10 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8A08D3296CF46200600A10 /* ResultViewController.swift */; };
+		6AE51048296F824100F6AE4C /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE51047296F824100F6AE4C /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A3E38A7296E363D0026DDAE /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		6A3E38A9296E3F670026DDAE /* ColorPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
 		6A8A08B4296CF0EF00600A10 /* Mensagens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mensagens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A8A08B7296CF0EF00600A10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A8A08B9296CF0EF00600A10 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6A8A08BB296CF0EF00600A10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6A8A08BB296CF0EF00600A10 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		6A8A08BE296CF0EF00600A10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6A8A08C0296CF0F100600A10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A8A08C3296CF0F100600A10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A8A08C5296CF0F100600A10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A8A08CF296CF44600600A10 /* MessageColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageColorViewController.swift; sourceTree = "<group>"; };
+		6A8A08D1296CF45600600A10 /* ScreenColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenColorViewController.swift; sourceTree = "<group>"; };
+		6A8A08D3296CF46200600A10 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		6AE51047296F824100F6AE4C /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +70,17 @@
 			children = (
 				6A8A08B7296CF0EF00600A10 /* AppDelegate.swift */,
 				6A8A08B9296CF0EF00600A10 /* SceneDelegate.swift */,
-				6A8A08BB296CF0EF00600A10 /* ViewController.swift */,
+				6A8A08BB296CF0EF00600A10 /* MessageViewController.swift */,
 				6A8A08BD296CF0EF00600A10 /* Main.storyboard */,
+				6A3E38A9296E3F670026DDAE /* ColorPickerViewController.swift */,
+				6A8A08CF296CF44600600A10 /* MessageColorViewController.swift */,
+				6A8A08D1296CF45600600A10 /* ScreenColorViewController.swift */,
+				6A8A08D3296CF46200600A10 /* ResultViewController.swift */,
 				6A8A08C0296CF0F100600A10 /* Assets.xcassets */,
 				6A8A08C2296CF0F100600A10 /* LaunchScreen.storyboard */,
 				6A8A08C5296CF0F100600A10 /* Info.plist */,
+				6A3E38A7296E363D0026DDAE /* BaseViewController.swift */,
+				6AE51047296F824100F6AE4C /* Message.swift */,
 			);
 			path = Mensagens;
 			sourceTree = "<group>";
@@ -138,8 +156,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A8A08BC296CF0EF00600A10 /* ViewController.swift in Sources */,
+				6A8A08D2296CF45600600A10 /* ScreenColorViewController.swift in Sources */,
+				6A8A08BC296CF0EF00600A10 /* MessageViewController.swift in Sources */,
+				6A8A08D4296CF46200600A10 /* ResultViewController.swift in Sources */,
 				6A8A08B8296CF0EF00600A10 /* AppDelegate.swift in Sources */,
+				6A3E38A8296E363D0026DDAE /* BaseViewController.swift in Sources */,
+				6A8A08D0296CF44600600A10 /* MessageColorViewController.swift in Sources */,
+				6A3E38AA296E3F670026DDAE /* ColorPickerViewController.swift in Sources */,
+				6AE51048296F824100F6AE4C /* Message.swift in Sources */,
 				6A8A08BA296CF0EF00600A10 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
