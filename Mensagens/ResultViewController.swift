@@ -13,6 +13,11 @@ class ResultViewController: BaseViewController {
         super.viewDidLoad()
 
         navigationController?.setNavigationBarHidden(true, animated: true)
+        
+        messageLabel.text = message.text
+        messageLabel.textColor = message.textColor
+        messageLabel.backgroundColor = message.backgroundColor
+        view.backgroundColor = message.screenColor
     }
     
 

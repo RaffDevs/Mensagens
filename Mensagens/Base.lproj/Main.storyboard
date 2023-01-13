@@ -218,15 +218,13 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MWx-aT-Eeu">
                                 <rect key="frame" x="20" y="161" width="374" height="448"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Texto Motivacional" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Ap3-Bi-DkH">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Ap3-Bi-DkH">
                                         <rect key="frame" x="20" y="21" width="336" height="406"/>
-                                        <color key="backgroundColor" red="1" green="1" blue="0.33567218389999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBlueColor"/>
                                 <constraints>
                                     <constraint firstItem="Ap3-Bi-DkH" firstAttribute="centerY" secondItem="MWx-aT-Eeu" secondAttribute="centerY" id="F00-HP-Vos"/>
                                     <constraint firstItem="Ap3-Bi-DkH" firstAttribute="top" secondItem="MWx-aT-Eeu" secondAttribute="top" constant="21" id="FDq-HW-jAu"/>
